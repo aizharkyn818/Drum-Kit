@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  background-color: #11052C;
+}
+
+h1 {
+  font: 5rem 'Laila', sans-serif;
+  color: #DBEDF3;
+  text-shadow: 3px 0 #F43B86;
+
+}
+.w, .a, .s,.d,.j,.k,.l{
+  background-size: 150px;
+}
+.w {
+  background-image: url("public/images/drum.jpg");
+}
+
+.a {
+  background-image: url("public/images/drum2.jpg");
+}
+
+.s {
+  background-image: url("public/images/drum3.jpg");
+}
+
+.d {
+  background-image: url("public/images/drum4.jpg");
+}
+
+.j {
+  background-image: url("public/images/drum3.jpg");
+}
+
+.k {
+  background-image: url("public/images/bass.jpg");
+}
+
+.l {
+  background-image: url("public/images/ghost.jpg");
+}
+
+.set {
+  margin: 10% auto;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font: 5rem 'Laila', sans-serif;
+  line-height: 2;
+  font-weight: 900;
+  color: #F43B86;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
